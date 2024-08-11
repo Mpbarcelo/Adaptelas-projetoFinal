@@ -56,14 +56,14 @@ Este projeto foi uma excelente oportunidade para aplicar na prática os conceito
 
 ## Autora
 **Nome:** Marcia Barcelo  
-**Contato:** [LinkedIn](https://www.linkedin.com/in/mpbarcelo/){:target="_blank"} 
+**Contato:** [LinkedIn](https://www.linkedin.com/in/mpbarcelo/)
 
 ## Agradecimentos
 Agradeço à equipe da **Adapti** e ao programa **Adaptelas** pela oportunidade de aprendizado e desenvolvimento profissional.
 
 ---
 
-**Visite o site da Adapti:** [Adapti](https://www.adapti.info/){:target="_blank"} 
-**Sobre o programa Adaptelas:** [Adaptelas](https://www.instagram.com/adaptiempresajr/){:target="_blank"} 
+**Visite o site da Adapti:** [Adapti](https://www.adapti.info/)
+**Sobre o programa Adaptelas:** [Adaptelas](https://www.instagram.com/adaptiempresajr/)
 
 ## Obrigada por visitar esse repositório!
