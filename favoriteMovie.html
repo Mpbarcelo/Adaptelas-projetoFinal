@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Marcia Barcelo" />
+    <meta
+      name="description"
+      content="Projeto final criada durante curso Adaptelas ofertado por Adapti"
+    />
+    <meta
+      name="keywords"
+      content="Desenvolvedora web front-end, HTML, CSS e JS"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="favoriteMovie.css" />    
+    <title>Meu Cinema</title>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Filme Favorito</h1>
+      <ul>
+        <li>
+          <a href="./index.html" class="link-pagina">Página Principal</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="div-informacoes">
+        <h2 id="nome">O auto da Compadecida</h2>
+        <div>
+          <h2>Ano de lançamento</h2>
+          <p id="data">10/09/2000</p>
+        </div>
+        <div>
+          <h2>Descrição</h2>
+          <p id="descricao">
+            O auto da Compadecida é um drama nordestino apresentado em três
+            atos. Contém elementos da literatura de cordel e está inserido no
+            gênero da comédia, se aproximando nos traços do barroco católico
+            brasileiro. Trabalha com a linguagem oral e apresenta também
+            regionalismo através da caracterização do nordeste.
+          </p>
+        </div>
+      </div>
+      <div class="div-personagens">
+        <h2>Personagens</h2>
+        <div class="cards">
+          <div>
+            <h2 id="personagem-dois">João Grilo</h2>
+            <img
+              src="./img/joao-grilo.jpg"
+              alt="personagem um"
+              id="imagem-p1"
+            />
+          </div>
+          <div>
+            <h2 id="personagem-um">Chicó</h2>
+            <img src="./img/chico.webp" alt="personagem dois" id="imagem-p2" />
+          </div>
+        </div>
+      </div>
+      <button id="abrir-modal">Editar Filme</button>
+    </main>
+    <div class="escondida div-modal" id="modal">
+      <div>
+        <h2>Adicionar Filme</h2>
+        <form action="" id="novo-filme">
+          <label for="novo-nome">Nome</label>
+          <input type="text" placeholder="Nome do filme" id="novo-nome" />
+          <label for="nova-data">Data</label>
+          <input type="date" placeholder="Data de lançamento" id="nova-data" />
+          <label for="nova-descricao">Descrição</label>
+          <input
+            type="text"
+            placeholder="Descrição do filme"
+            id="nova-descricao"
+          />
+
+          <label for="nome-p1">Nome do Personagem 1</label>
+          <input type="text" placeholder="Nome do Personagem um" id="novo-p1" />
+          <label for="novo-p1">Imagem do Personagem 1</label>
+          <input
+            type="file"
+            placeholder="Imagem do personagem um"
+            class="input-arquivo"
+            id="nova-imagem-p1"
+            value=""
+          />
+
+          <label for="nome-p2">Nome do Personagem 2</label>
+          <input
+            type="text"
+            placeholder="Nome do Personagem dois"
+            id="novo-p2"
+          />
+          <label for="imagem-p2">Imagem do Personagem 2</label>
+          <input
+            type="file"
+            placeholder="Imagem do personagem dois"
+            class="input-arquivo"
+            id="nova-imagem-p2"
+            value=""
+          />
+
+          <button id="salvar">Salvar</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Desenvolvido com <i class="bi bi-suit-heart-fill"></i> por
+        <b>Marcia Barcelo</b>
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
