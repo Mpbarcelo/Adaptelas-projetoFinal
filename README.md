@@ -63,7 +63,8 @@ Agradeço à equipe da **Adapti** e ao programa **Adaptelas** pela oportunidade 
 
 ---
 
-**Visite o site da Adapti:** [Adapti](https://www.adapti.info/)
+**Visite o site da Adapti:** [Adapti](https://www.adapti.info/) 
+---
 **Sobre o programa Adaptelas:** [Adaptelas](https://www.instagram.com/adaptiempresajr/)
 
 ## Obrigada por visitar esse repositório!
