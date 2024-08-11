@@ -1,5 +1,9 @@
 # Projeto Final: Meu Cinema
 
+## Curso
+**Curso:** Frontend - Adaptelas  
+**Instituição:** Adapti
+
 ![Paágina principal](./img/principal.png)
 
 ----
@@ -7,10 +11,7 @@
 ![Página secundária](./img/secundaria.png)
 
 
-
-## Curso
-**Curso:** Frontend - Adaptelas  
-**Instituição:** Adapti
+----
 
 ## Descrição do Projeto
 O projeto "Meu Cinema" foi desenvolvido como parte do curso de frontend oferecido pela Adaptelas. O objetivo deste projeto foi consolidar os conhecimentos adquiridos ao longo do curso, utilizando as tecnologias HTML, CSS e JavaScript para criar uma aplicação web interativa.
